@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(135deg, rgba(98, 31, 150, 0.9) 0%, rgba(163, 211, 236, 0.9) 70%, rgba(255, 255, 255, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -650,12 +650,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(45deg, #5846f9 0%, #373BC1 100%);
   position: relative;
 }
 
 .about .content .read-more:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg, #5846f9 0%, #1e24b9 100%);
 }
 
 .about .content .read-more i {
@@ -669,7 +669,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, rgba(98, 31, 150, 0.9) 0%, rgba(163, 211, 236, 0.9) 80%, rgba(255, 255, 255, 0.9) 100%), url("../img/counts-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
 }
 
@@ -1505,14 +1505,32 @@ section {
     display: inline-block;
   }
 }
+/* #0079ff (0, 121, 255) - A vibrant blue shade
+Complementary Colors:
 
+#8c50ff (140, 80, 255) - The existing color you mentioned
+#494d6b (73, 77, 107)
+#c5c6e0 (197, 198, 224)
+#6b707f (107, 112, 127)
+
+
+#ff508c (255, 80, 140)
+#50ff8c (80, 255, 140)
+#ffcd50 (255, 205, 80)
+#5050ff (80, 80, 255)
+
+
+#494d6b (73, 77, 107)
+#c5c6e0 (197, 198, 224)
+#6b707f (107, 112, 127)
+#ffcc66 (255, 204, 102) */
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(98, 31, 150, 0.9) 0%, rgba(163, 211, 236, 0.9) 80%, rgba(255, 255, 255, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
