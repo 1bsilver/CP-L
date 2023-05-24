@@ -564,6 +564,51 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  padding: 100px 0 100px 0;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+   .clients_container {
+    padding: 0 60px;
+  }
+}
+
+
+ .clients_container {
+  padding: 80px;
+  background: rgba(var(--color-secondary-rgb), 0.1);
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .clients_container {
+    padding: 60px;
+  }
+}
+
+.clients_container  {
+  margin-bottom: 20px;
+}
+
+.img img {
+  transform: scale(1.2);
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
